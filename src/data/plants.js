@@ -1,4 +1,5 @@
 export const plants = [
+  // Indoor Plants
   {
     id: 1,
     name: "Monstera Deliciosa",
@@ -28,6 +29,21 @@ export const plants = [
     image: "https://images.unsplash.com/photo-1611211232932-da3113c5b960?w=400&q=80"
   },
   {
+    id: 13,
+    name: "ZZ Plant",
+    category: "Indoor Plants",
+    price: 21.99,
+    image: "https://images.unsplash.com/photo-1632207691143-643e2a9a9361?w=400&q=80"
+  },
+  {
+    id: 14,
+    name: "Calathea",
+    category: "Indoor Plants",
+    price: 26.99,
+    image: "https://images.unsplash.com/photo-1599421255554-47a32194c798?w=400&q=80"
+  },
+  // Succulents
+  {
     id: 5,
     name: "Aloe Vera",
     category: "Succulents",
@@ -56,6 +72,21 @@ export const plants = [
     image: "https://images.unsplash.com/photo-1521503953580-b2f51f50a41d?w=400&q=80"
   },
   {
+    id: 15,
+    name: "Burro's Tail",
+    category: "Succulents",
+    price: 14.99,
+    image: "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=400&q=80"
+  },
+  {
+    id: 16,
+    name: "String of Pearls",
+    category: "Succulents",
+    price: 18.99,
+    image: "https://images.unsplash.com/photo-1616428610582-73bc4f3d242f?w=400&q=80"
+  },
+  // Air Purifying Plants
+  {
     id: 9,
     name: "Spider Plant",
     category: "Air Purifying Plants",
@@ -82,5 +113,19 @@ export const plants = [
     category: "Air Purifying Plants",
     price: 28.99,
     image: "https://images.unsplash.com/photo-1597845700720-7f28bc3a6774?w=400&q=80"
+  },
+  {
+    id: 17,
+    name: "English Ivy",
+    category: "Air Purifying Plants",
+    price: 13.99,
+    image: "https://images.unsplash.com/photo-1632207691143-643e2a9a9361?w=400&q=80"
+  },
+  {
+    id: 18,
+    name: "Bamboo Palm",
+    category: "Air Purifying Plants",
+    price: 32.99,
+    image: "https://images.unsplash.com/photo-1599421255554-47a32194c798?w=400&q=80"
   }
 ];
